@@ -1,0 +1,104 @@
+{
+    "lista": [
+        {
+            "curso": "Git e Github",
+            "instituição": "Ead Education",
+            "ano": "2020"
+        },
+        {
+            "curso": "Big Data Fundamentos 2.0",
+            "instituição": "Data Science Academy",
+            "ano": "2020"
+        },
+        {
+            "curso": "Introdução à Ciência de Dados 2.0",
+            "instituição": "Data Science Academy",
+            "ano": "2020"
+        },
+        {
+            "curso":"Introdução à Linguagem CSS",
+            "instituição": "Prof. Diego Mariano",
+            "ano": "2020"
+        },
+        {
+            "curso":"Introdução à Linguagem HTML",
+            "instituição": "Prof. Diego Mariano",
+            "ano": "2020"
+        },
+        {
+            "curso":"Introdução ao Python",
+            "instituição": "Prof. Diego Mariano",
+            "ano": "2020"
+        },
+        {
+            "curso":"Introdução à Programação de Computadores",
+            "instituição": "Prof. Diego Mariano",
+            "ano": "2020"
+        },
+        {
+            "curso":"Photoshop CC: Edição de Imagens e Fotos para Iniciantes",
+            "instituição": "Prof. Diego Mariano",
+            "ano": "2020"
+        },
+        {
+            "curso":"Excel Avançado",
+            "instituição": "WR Educacional",
+            "ano": "2018"
+        },
+        {
+            "curso": "Bloco X: Redução Z e controle de estoque no PA.F-ECF (SC – 01797)",
+            "instituição": "Conselho Regional de Contabilidade de Santa Catarina (CRCSC)",
+            "ano": "2018"
+        },
+        {
+            "curso": "Recursos Humanos",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Intermediação financeira e ambiente econômico",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Fundamentos de Finanças",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Fundamentos de Gestão de Custos",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Como fazer investimentos - Básico",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Como fazer investimentos 1",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Como fazer investimentos 2",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Apresentação do Sistema Tributário Nacional",
+            "instituição": "Fundação Getúlio Vargas",
+            "ano": "2017"
+        },
+        {
+            "curso": "Contabilidade como instrumento de gestão",
+            "instituição": "Universidade do Oeste de Santa Catarina",
+            "ano": "2016"
+        },
+        {
+            "curso": "Auditoria Contábil e a Segurança na Gestão",
+            "instituição": "Universidade do Oeste de Santa Catarina",
+            "ano": "2015"
+        }
+    ]
+}
