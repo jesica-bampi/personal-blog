@@ -1,0 +1,26 @@
+{
+    "lista": [
+        {
+            "date-initial": "02/2020",
+            "date-final": "02/2021",
+            "company": "RB Imóveis",
+            "office": "Consultora Imobiliária",
+            "description": "Angariação e venda de imóveis;"
+        },
+        {
+            "date-initial": "08/2018",
+            "date-final": "09/2019",
+            "company": "AGS Contadores Associados",
+            "description": "Escrituração fiscal/contábil, apuração de impostos, declarações de obrigações acessórias, conciliação de contas, fechamento e entrega das demonstrações contábeis, análises financeiras baseadas nas demonstrações contábeis e elaboração de relatórios gerenciais destinados aos administradores;"
+        },
+        {
+            "date-initial": "01/2013",
+            "date-final": "09/2018",
+            "company": "Starkfest Indústria do Vestuário LTDA",
+            "office": "Auxiliar Administrativo",
+            "description": "Controle, conferência e escrituração de movimentação fiscal e financeira (contas a pagar e receber, conciliação bancária); faturamento; alimentação de sistema ERP e fluxo de caixa; PPCP, controle e declaração de estoques; monitoramento de entregas; Elaboração de relatórios gerenciais; acompanhamento e apresentação de rastreabilidade fiscal para auditorias ABVTEX."
+        }
+        
+        
+    ]
+}
