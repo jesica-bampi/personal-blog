@@ -1,6 +1,61 @@
 {
     "lista": [
         {
+            "curso": "Webpack: Manipulando módulos na sua webapp",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "JS na web: CRUD com JavaScript assíncrono",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "JS na Web: Manipule o DOM com JavaScript",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "JavaScript: Conhecendo o Browser e padrões de projeto",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "Gráficos na web parte 1: Criando e customizando gráficos",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "JavaScript na Web: Validação de Formulários e HTML5",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "JavaScript: Interfaces e Herança em Orientação a Objetos",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "JavaScript: Programando a Orientação a Objetos",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "JavaScript: Programando na linguagem da web",
+            "instituição": "Alura",
+            "ano": "2021"
+        },
+        {
+            "curso": "SQL Completo",
+            "instituição": "SoftBlue S.A.",
+            "ano": "2020"
+        },
+        {
+            "curso": "Certificado em Scrum Fundamentals",
+            "instituição": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+            "ano": "2020"
+        },
+        {
             "curso": "Git e Github",
             "instituição": "Ead Education",
             "ano": "2020"
