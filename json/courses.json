@@ -1,0 +1,157 @@
+[
+    {
+        "curso": "Webpack: Manipulando módulos na sua webapp",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "JS na web: CRUD com JavaScript assíncrono",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "JS na Web: Manipule o DOM com JavaScript",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "JavaScript: Conhecendo o Browser e padrões de projeto",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "Gráficos na web parte 1: Criando e customizando gráficos",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "JavaScript na Web: Validação de Formulários e HTML5",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "JavaScript: Interfaces e Herança em Orientação a Objetos",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "JavaScript: Programando a Orientação a Objetos",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "JavaScript: Programando na linguagem da web",
+        "instituicao": "Alura",
+        "ano": "2021"
+    },
+    {
+        "curso": "SQL Completo",
+        "instituicao": "SoftBlue S.A.",
+        "ano": "2020"
+    },
+    {
+        "curso": "Certificado em Scrum Fundamentals",
+        "instituicao": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+        "ano": "2020"
+    },
+    {
+        "curso": "Git e Github",
+        "instituicao": "Ead Education",
+        "ano": "2020"
+    },
+    {
+        "curso": "Big Data Fundamentos 2.0",
+        "instituicao": "Data Science Academy",
+        "ano": "2020"
+    },
+    {
+        "curso": "Introdução à Ciência de Dados 2.0",
+        "instituicao": "Data Science Academy",
+        "ano": "2020"
+    },
+    {
+        "curso": "Introdução à Linguagem CSS",
+        "instituicao": "Prof. Diego Mariano",
+        "ano": "2020"
+    },
+    {
+        "curso": "Introdução à Linguagem HTML",
+        "instituicao": "Prof. Diego Mariano",
+        "ano": "2020"
+    },
+    {
+        "curso": "Introdução ao Python",
+        "instituicao": "Prof. Diego Mariano",
+        "ano": "2020"
+    },
+    {
+        "curso": "Introdução à Programação de Computadores",
+        "instituicao": "Prof. Diego Mariano",
+        "ano": "2020"
+    },
+    {
+        "curso": "Photoshop CC: Edição de Imagens e Fotos para Iniciantes",
+        "instituicao": "Prof. Diego Mariano",
+        "ano": "2020"
+    },
+    {
+        "curso": "Excel Avançado",
+        "instituicao": "WR Educacional",
+        "ano": "2018"
+    },
+    {
+        "curso": "Bloco X: Redução Z e controle de estoque no PA.F-ECF (SC – 01797)",
+        "instituicao": "Conselho Regional de Contabilidade de Santa Catarina (CRCSC)",
+        "ano": "2018"
+    },
+    {
+        "curso": "Recursos Humanos",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Intermediação financeira e ambiente econômico",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Fundamentos de Finanças",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Fundamentos de Gestão de Custos",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Como fazer investimentos - Básico",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Como fazer investimentos 1",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Como fazer investimentos 2",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Apresentação do Sistema Tributário Nacional",
+        "instituicao": "Fundação Getúlio Vargas",
+        "ano": "2017"
+    },
+    {
+        "curso": "Contabilidade como instrumento de gestão",
+        "instituicao": "Universidade do Oeste de Santa Catarina",
+        "ano": "2016"
+    },
+    {
+        "curso": "Auditoria Contábil e a Segurança na Gestão",
+        "instituicao": "Universidade do Oeste de Santa Catarina",
+        "ano": "2015"
+    }
+]
