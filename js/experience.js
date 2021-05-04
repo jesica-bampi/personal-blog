@@ -19,13 +19,13 @@ function montarLista(jsonObj) {
         var myPar1 = document.createElement('p')
         var myPar2 = document.createElement('p');
 
-        myH3.textContent =jsonObj.lista[i].initial-date + ' - ' + jsonObj.lista[i].final-date + ' - ' + jsonObj.lista[i].company;
-        mylabel1.textContent = jsonObj.lista[i].office;
-        myPar.textContent = jsonObj.lista[i].description;
+        myH3.textContent ='(' + jsonObj.lista[i].initialDate + ' - ' + jsonObj.lista[i].finalDate + ')' + ' - ' + jsonObj.lista[i].company;
+        myPar1.textContent = 'Função: ' + jsonObj.lista[i].office;
+        myPar2.textContent = 'Atividades desempenhadas: ' + jsonObj.lista[i].description;
         
         listItem.appendChild(myH3);
         listItem.appendChild(myPar1);
-        listItem.appendChild(myPar2)
+        listItem.appendChild(myPar2);
         listExperience.appendChild(listItem);
     };
 }
