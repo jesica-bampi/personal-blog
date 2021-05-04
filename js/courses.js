@@ -19,9 +19,9 @@ function montarLista(jsonObj) {
         var mylabel1 = document.createElement('label')
         var mylabel2 = document.createElement('label');
 
-        myH3.textContent = jsonObj.lista['curso'];
-        mylabel1.textContent = jsonObj.lista['ano']
-        mylabel2.textContent = jsonObj.lista['instituicao'];
+        myH3.textContent = jsonObj.lista[i].curso;
+        mylabel1.textContent = jsonObj.lista[i].ano;
+        mylabel2.textContent = jsonObj.lista[i].instituicao;
 
         listItem.appendChild(myH3);
         listItem.appendChild(mylabel1);
