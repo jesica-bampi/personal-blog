@@ -1,4 +1,4 @@
-const listaCursos = document.querySelector('#listaCursos');
+const listaCourses = document.querySelector('#listaCursos');
 
 var requestURL = 'https://raw.githubusercontent.com/jesica-bampi/personal-blog/main/json/courses.json';
 var request = new XMLHttpRequest();
@@ -19,15 +19,15 @@ function montarLista(jsonObj) {
         var mylabel1 = document.createElement('label')
         var myPar = document.createElement('p');
 
-        myH3.textContent =jsonObj.lista[i].curso + ' - ';
-        mylabel1.textContent = jsonObj.lista[i].ano;
-        myPar.textContent = jsonObj.lista[i].instituicao;
+        myH3.textContent =jsonObj.cursos[i].curso + ' - ';
+        mylabel1.textContent = jsonObj.cursos[i].ano;
+        myPar.textContent = jsonObj.cursos[i].instituicao;
 
         myH3.appendChild(mylabel1);
         
         listItem.appendChild(myH3);
         listItem.appendChild(myPar);
-        listaCursos.appendChild(listItem);
+        listaCourses.appendChild(listItem);
     };
 }
 

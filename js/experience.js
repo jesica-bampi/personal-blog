@@ -1,4 +1,4 @@
-var listExperience = document.querySelector('#listExperience')
+const listExperience = document.querySelector('#listExperience')
 
 var requestURL = 'https://raw.githubusercontent.com/jesica-bampi/personal-blog/main/json/experience.json';
 var request = new XMLHttpRequest();
@@ -8,11 +8,11 @@ request.responseType = 'json';
 
 request.onload = function(){
     var experience = request.response;
-    montarLista(experience);
+    montarListaExperience(experience);
 }
 request.send();
 
-function montarLista(jsonObj) {
+function montarListaExperience(jsonObj) {
     for (i = 0; i < jsonObj.lista.length; i++) {
         var listItem = document.createElement('li');
         var myH3 = document.createElement('h3');
