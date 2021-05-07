@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jesica Bampi</title>
-</head>
-<body class="container">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body class="container">
     <div class="img-perfil">
-        <img src="/images/imagem-pessoal.jpg" alt="img-perfil">
-        <label for="img-perfil">Jésica Bampi</label>
+      <img src="/images/imagem-pessoal.jpg" alt="img-perfil" />
+      <label for="img-perfil">Jésica Bampi</label>
     </div>
     <div class="nav-pag">
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#experience">Experiência Profissional</a></li>
-                <li><a href="#formation">Formação</a></li>
-                <li><a href="#cursosCertificacoes">Cursos e Certificações</a></li>
-            </ul>
-        </nav>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiência Profissional</a></li>
+          <li><a href="#formation">Formação</a></li>
+          <li><a href="#cursosCertificacoes">Cursos e Certificações</a></li>
+        </ul>
+      </nav>
     </div>
     <div id="about">
-        <h1 id="about-title">Apresentação</h1>
-        <p id="about-desc">...</p>
+      <h1 id="about-title">Apresentação</h1>
+      <p id="about-desc">...</p>
     </div>
     <div id="experience">
-        <h2>Dados Profissionais</h2>
-        <ul id="listExperience">
-        </ul>
+      <h2>Dados Profissionais</h2>
+      <ul id="listExperience"></ul>
     </div>
     <div id="formation">
-        <h2>Formação</h2>
-        <ul style="list-style: none;">
-            <li></li>
-        </ul>
-    </div>	
+      <h2>Formação</h2>
+      <ul style="list-style: none">
+        <li></li>
+      </ul>
+    </div>
     <div id="cursosCertificacoes">
-        <h2>Cursos e Certificações</h2>
-        <ul id="listaCursos">    
-        </ul>
+      <h2>Cursos e Certificações</h2>
+      <ul id="listaCursos"></ul>
     </div>
     <footer>@jesicabampi</footer>
-    <script src="js/courses.js"></script>
-    <script src="js/experience.js"></script>
-</body>
+    <script type="module" src="js/CourseService.js"></script>
+    <script type="module" src="js/ExperienceService.js"></script>  
+  </body>
 </html>
