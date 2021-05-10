@@ -1,25 +1,17 @@
-import { JSONRequest } from "./JSONRequest.js";
+const experienceList = document.querySelector("#experienceList");
+var requestURLExp =
+  "https://raw.githubusercontent.com/jesica-bampi/personal-blog/main/json/experience.json";
+var requestExp = new XMLHttpRequest();
+requestExp.open("GET", requestURLExp);
+requestExp.responseType = "json";
+requestExp.send();
 
-export class ExperienceService extends JSONRequest {
-  constructor() {
-    super();
-    this.experienceList = document.querySelector("#listExperience");
-  }
-
-  getRequestURL() {
-    return "https://raw.githubusercontent.com/jesica-bampi/personal-blog/main/json/experience.json";
-  }
-
-  send() {
-    this.request.onload = function () {
-      var experiences = this.request.response.lista;
-      for (var i = 0; i < experiences.length; i++) {
-        this._addItemLista(experiences[i]);
-      }
-    };
-  }
-  
-  _addItemLista(experience) {
+requestExp.onload = function () {
+  var experiences = requestExp.response.lista;
+  addItemLista(experiences);
+};
+function addItemLista(experience) {
+  for (var i = 0; i < experience.length; i++) {
     var listItem = document.createElement("li");
     var myH3 = document.createElement("h3");
     var myPar1 = document.createElement("p");
@@ -27,14 +19,15 @@ export class ExperienceService extends JSONRequest {
 
     myH3.textContent =
       "(" +
-      experience.initialDate +
+      experience[i].initialDate +
       " - " +
-      experience.finalDate +
+      experience[i].finalDate +
       ")" +
       " - " +
-      experience.company;
-    myPar1.textContent = "Função: " + experience.office;
-    myPar2.textContent = "Atividades desempenhadas: " + experience.description;
+      experience[i].company;
+    myPar1.textContent = "Função: " + experience[i].office;
+    myPar2.textContent =
+      "Atividades desempenhadas: " + experience[i].description;
 
     listItem.appendChild(myH3);
     listItem.appendChild(myPar1);
