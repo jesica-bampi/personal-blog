@@ -1,47 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jesica Bampi</title>
-  </head>
-  <body class="container">
-    <div class="img-perfil">
-      <img src="/images/imagem-pessoal.jpg" alt="img-perfil" />
-      <label for="img-perfil">Jésica Bampi</label>
-    </div>
-    <div class="nav-pag">
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#experience">Experiência Profissional</a></li>
-          <li><a href="#formation">Formação</a></li>
-          <li><a href="#cursosCertificacoes">Cursos e Certificações</a></li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesica Bampi</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="nav-bar" id="sidebar">
+      <div class="container">
+        <img class="rounded mx-auto d-block" id="img-pessoal" src="./images/imagem-pessoal.jpg" alt="img-pessoal" />
+        <h1 class="text-center" id="name-personal">Jésica Bampi</h1>
+      </div>
+      <div class="navegation">
+        <ul class="menu">
+          <li ><a href="#">Sobre</a></li>
+          <li ><a href="#experience">Experiência profissional</a></li>
+          <li ><a href="#formation">Fomação Acadêmica</a></li>
+          <li ><a href="#cursosCertificacoes">Cursos e certificações</a></li>
+          <li><a href="#footer">Contatos e Links úteis</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
-    <div id="about">
-      <h1 id="about-title">Apresentação</h1>
-      <p id="about-desc">...</p>
+    <div class="content" id="content-text">
+      <div class="container">
+        <div class="container" id="content-about">
+          <div id="about">
+            <h1 id="title-about">
+              Apresentação
+            </h1>
+            <div class="container" id="text-about">
+              <p id="about-desc">Prezado Senhores, <br> 
+                Estou em busca de uma nova oportunidade de trabalho na área fiscal/contábil. Entre minhas características estão: adaptabilidade, senso lógico, pró-atividade, multifuncionalidade, responsabilidade e dedicação. <br>
+                Informo ainda, que tenho disponibilidade para mudanças e viagens de acordo com as necessidades da empresa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="experience">
+          <h2 id="title-experience">
+            Dados Profissionais
+          </h2>
+          <ul id="experienceList"></ul>
+        </div>
+        <div id="formation">
+          <h2 id="title-formation">
+            Formação
+          </h2>
+          <ul id="formationList" type="list-style-type = none">
+            <li>
+              <h3>Licenciatura e Bacharelado em Ciências Contábeis</h3>
+              <p>Universidade do Oeste de Santa Catarina - UNOESC</p>
+              <p>Conclusão em 2017</p>
+            </li>
+          </ul>
+        </div>
+        <div id="cursosCertificacoes">
+          <h2 id="title-Course">
+            Cursos e Certificações
+          </h2>
+          <ul id="courseList" class="collapse show"></ul>
+        </div>
+      </div>
     </div>
-    <div id="experience">
-      <h2>Dados Profissionais</h2>
-      <ul id="experienceList"></ul>
+  </div>
+  <div>
+  <div class="contact" id="footer">
+    <div class="container" id="icons-bar">
+      <a class="nav-icons" href="https://www.linkedin.com/in/jesicabampi/"><img src="./icons/linkedin.png" alt="linkedin"
+        width="30" height="30" /> LinkedIn</a>
+      <a class="nav-icons" href="https://github.com/jesica-bampi"><img src="./icons/github.png" alt="github" width="30"
+        height="30" /> Github</a>
+      <a class="nav-icons" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="./icons/gmail.png" alt="gmail" width="30"
+        height="30" /> jesica.bampi@gmail.com</a>
+      <a class="nav-icons" href="#contatos"><img src="./icons/telefone.png" alt="telephone" width="30" height="30"> +351 967699351</a>
     </div>
-    <div id="formation">
-      <h2>Formação</h2>
-        <ul id="formationList"></ul>
-      <ul style="list-style: none">
-        <li></li>
-      </ul>
+    <div class="container" id="reference">
+      <p class="text-rigth">Ícones feitos por
+        <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></p>
     </div>
-    <div id="cursosCertificacoes">
-      <h2>Cursos e Certificações</h2>
-      <ul id="courseList"></ul>
-    </div>
-    <footer>@jesicabampi</footer>
-    <script type="module" src="./js/CourseService.js"></script>
-    <script type="module" src="./js/ExperienceService.js"></script>  
-  </body>
+  </div>
+  <script src="./jquery.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script type="module" src="./js/CourseService.js"></script>
+  <script type="module" src="./js/ExperienceService.js"></script>
+</body>
+
 </html>
