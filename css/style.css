@@ -2,14 +2,14 @@
   position: fixed;
   float: left;
   width: 25%;
-  height: 100%;
-  min-height: 100%;
-  background-color: rgba(0, 0, 0, 0.719);
+  height: 87%;
+  min-height: 87%;
+  background-color: rgb(185, 86, 169);
   justify-content: left;
-  padding: 20px 20px;
+  padding: 20px;
   align-items: center;
   margin-top: 15px;
-  margin-right: 0px;
+  margin-left: 10px;
   border-radius: 10px;
 }
 
@@ -24,7 +24,7 @@
   height: 100%;
   float: right;
   color: aliceblue;
-  background-color: rgba(88, 88, 153, 0.425);
+  background-color: rgb(11, 12, 46);
 }
 
 .wrapper:before,
@@ -37,7 +37,7 @@
 }
 .wrapper {
    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
-   background-color: rgb(38, 21, 59);
+   background-color: rgb(11, 12, 46);
 }
 
 .navegation ul a{
@@ -45,8 +45,8 @@
   padding: 10px;
   margin-right: 30px;
   display: block;
-  background-color: rgb(123, 123, 233);
-  color: blue;
+  background-color: rgb(50, 9, 63);
+  color: rgb(255, 255, 255);
   margin-top: 10px;
   border-radius: 10px;
   text-align: center;
@@ -57,7 +57,7 @@
 }
 
 #name-personal{
-  color: rgb(42, 5, 179);
+  color: rgb(246, 246, 248);
 }
 
 #icons-bar{
@@ -79,7 +79,7 @@
   float: right;
   width: 30%;
   height: auto;
-  color: rgb(119, 121, 122);
+  color: rgb(88, 87, 87);
   margin-top: 20px;
 }
 
@@ -98,9 +98,10 @@
 
 .contact{
    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
-   background-color: rgb(0, 0, 0);
+   background-color: rgb(8, 8, 8);
    height: 60px;
 }
+
 
 #content-about{
   padding: 20px 20px;
@@ -108,7 +109,7 @@
   margin-top: 10%;
   margin-bottom: 20%;
   min-height: 100%;
-  background-color: rgba(0, 0, 0, 0.212);
+  background-color: rgba(0, 0, 0, 0.212);;
   border-radius: 10px;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.664);
 }
@@ -119,7 +120,7 @@
 }
 
 #text-about{
-  background-color: rgba(121, 121, 173, 0.781);
+  background-color:rgba(121, 121, 173, 0.781);
   height: max-content;
   padding: 20px;
   border-radius: 10px;
@@ -140,6 +141,7 @@
 #experience{
   padding-top: 40px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.212);
   border-radius: 10px;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.664);
@@ -155,6 +157,7 @@
 }
 
 #title-formation{
+  padding-top: 80px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -163,7 +166,7 @@
   background-color: rgba(121, 121, 173, 0.781);
   height: max-content;
   padding: 40px;
-  margin: 10px;
+  margin-bottom: 20%;
   border-radius: 10px;
 }
 
